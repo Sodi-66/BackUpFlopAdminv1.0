@@ -12,7 +12,7 @@ main_markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 main_markup.add(types.KeyboardButton('Моя стата'), types.KeyboardButton('Стата чата'),
                     types.KeyboardButton('Команды'), types.KeyboardButton('Игры'))
 
-tg_token = '6111629120:AAGIK6PhWBL6lTLeKhXRTbZ-H55Mg-7Y8Fs'
+tg_token = 'ABOBA'
 
 bot = telebot.TeleBot(tg_token)
 
