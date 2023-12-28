@@ -6,7 +6,7 @@ fishes = ['Коричневая рыба🟫', 'Синяя рыба🐟', 'Жё�
 trash = ['Банки🥫🥫', 'Пакеты🛍', 'Бімба💣💥']
 
 
-tg_token = '6111629120:AAGIK6PhWBL6lTLeKhXRTbZ-H55Mg-7Y8Fs'
+tg_token = 'aboba'
 
 bot = telebot.TeleBot(tg_token)
 
