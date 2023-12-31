@@ -138,6 +138,16 @@ def random_game(message):
     commands.start_game(message)
 
 
+@bot.message_handler(commands=['gift'])
+def give_points(message):
+    commands.give_gift(message)
+
+
+@bot.message_handler(commands=['grinch'])
+def get_points_main(message):
+    commands.get_points(message)
+
+
 @bot.message_handler(content_types=['new_chat_members'])
 def main_new_memeber(message):
     content_types.welcome_new_members(message)
